@@ -25,7 +25,7 @@
             cursor: pointer;
             font-family: 'Ubuntu', sans-serif;
             height: 67px;
-            z-index: 1;
+            z-index: 2;
         }
         
         .nav-list {
@@ -85,7 +85,7 @@
         
         .line-1 {
             position: relative;
-            width: 8.8em;
+            width: 9em;
             margin: 0 auto;
             border-right: 2px solid rgba(255, 255, 255, .75);
             font-size: 200%;
