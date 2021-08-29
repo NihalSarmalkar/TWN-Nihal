@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" media="screen and (max-width : 768px)" href="/CSS/phone.css">
+
+
+    <title>The Wheels Nation </title>
+</head>
+
+<body>
+    <nav class="navbar backgroundnav h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo">
+                <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQHmR9yUjANU5A/company-logo_200_200/0/1616221363974?e=1638403200&v=beta&t=Xwj4rVJFVCgJZVjZIwRaoQVgh8c3__a7fcIJxpdKpTg" alt="logo">
+            </div>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#getintouch">Get in touch</a>
+            </li>
+            <li>
+                <a href="#offer">Offer</a>
+            </li>
+            <li>
+                <a href="#">Details</a>
+            </li>
+            <li>
+                <a href="#about">About us</a>
+            </li>
+
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="Search" id="search">
+            <button class="btn">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+    </nav>
+
+
+    <section class="home" id="home">
+
+        <div class="home-container">
+
+            <div class="company-logo">
+                <div class="logo-home">
+                    <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQHmR9yUjANU5A/company-logo_200_200/0/1616221363974?e=1638403200&v=beta&t=Xwj4rVJFVCgJZVjZIwRaoQVgh8c3__a7fcIJxpdKpTg" alt="logo">
+                </div>
+            </div>
+
+            <div class="company-name">
+                <p class="line-1 anim-typewriter">The Wheels Nation</p>
+
+            </div>
+            <div>
+                <Div style="width: 2em; height: 2em; background-color: transparent; z-index: 80; 
+            bottom: 25px;  border-width: 0 0.25em 0.25em 0; border-style: solid; border-color: rgb(80, 80, 80); animation: scrolldown 1.2s ease-in-out infinite 0.15s;" class="down"></Div>
+                <Div style="width: 2em; height: 2em; background-color: transparent; z-index: 80; 
+            bottom: 40px;  border-width: 0 0.25em 0.25em 0; border-style: solid; border-color: rgb(80, 80, 80); animation: scrolldown 1.2s ease-in-out infinite;" class="down"></Div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="vehicle-type" id="vehicle-type">
+        <div class="vehicle-type-container">
+            <h1>Selet Vehicle Type</h1>
+            <div class="row">
+                <div class="column">
+                    <div class="card" onclick="on()">
+                        <div>
+                            <i class="fa fa-motorcycle" style="font-size:65px;color:black"></i>
+                        </div>
+                        <br>
+
+                        <h2>Motorcycle</h2>
+
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card" onclick="on()">
+
+                        <div>
+                            <i class="fa fa-car" style="font-size:65px;color:black"></i>
+                        </div>
+                        <br>
+
+                        <h2>Car</h2>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="overlay" class="overlays">
+
+        <div class="row row1">
+            <div class="column">
+                <div class="card" onclick="off()">
+
+                    <h1>Select service</h1>
+
+                </div>
+            </div>
+        </div>
+        <div class="row row1">
+            <div class="column">
+                <div class="card" onclick="on()">
+                    <div>
+                        <i class="fa fa-question-circle" style="font-size:65px;color:black"></i>
+                    </div>
+                    <br>
+
+                    <h2>Service 1</h2>
+
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+
+                    <div>
+                        <i class="fa fa-question-circle" style="font-size:65px;color:black"></i>
+                    </div>
+                    <br>
+
+                    <h2>Service 2</h2>
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="card" onclick="on()">
+                    <div>
+                        <i class="fa fa-question-circle" style="font-size:65px;color:black"></i>
+                    </div>
+                    <br>
+
+                    <h2>Service 3</h2>
+
+                </div>
+            </div>
+        </div>
+        <div class="row row1">
+            <div class="column">
+                <div class="card" onclick="on()">
+                    <div>
+                        <i class="fa fa-question-circle" style="font-size:65px;color:black"></i>
+                    </div>
+                    <br>
+
+                    <h2>Service 4</h2>
+
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+
+                    <div>
+                        <i class="fa fa-question-circle" style="font-size:65px;color:black"></i>
+                    </div>
+                    <br>
+
+                    <h2>Service 5</h2>
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="card" onclick="on()">
+                    <div>
+                        <i class="fa fa-question-circle" style="font-size:65px;color:black"></i>
+                    </div>
+                    <br>
+
+                    <h2>Service 6</h2>
+
+                </div>
+            </div>
+        </div>
+        <div class="row row1">
+            <div class="column">
+                <div class="card" onclick="off()">
+
+                    <h2>Back</h2>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <section class="offer" id="offer">
+        <div class="offer-container">
+            <h1>Offers</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="dl">
+                            <div class="brand">
+                                <h2>offer1</h2>
+                            </div>
+                            <div class="discount alizarin">30%
+                                <div class="type">off</div>
+                            </div>
+                            <div class="descr">
+                                <strong>Mei mucius gloriatur reprimique mollis*.</strong> Ad sonet perfecto antiopam mei, denique molestie ne has.
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="dl">
+                            <div class="brand">
+                                <h2>offer2</h2>
+                            </div>
+                            <div class="discount emerald">
+                                50%
+                                <div class="type">
+                                    off
+                                </div>
+                            </div>
+                            <div class="descr">
+                                <strong>
+                                Ea per iuvaret ocurreret*. 
+                            </strong> sit ea detraxit menandri mediocritatem, in mel dicant mentitum.
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="dl">
+                            <div class="brand">
+                                <h2>
+                                    offer3
+                                </h2>
+                            </div>
+                            <div class="discount peter-river">
+                                15%
+                                <div class="type">
+                                    off
+                                </div>
+                            </div>
+                            <div class="descr">
+                                <strong>
+                                 Solet consul tractatos ei pro*. 
+                            </strong> Ei mei quot invidunt explicari, placerat percipitur intellegam.
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-container">
+            <h1>About Us</h1>
+            <div class="company-logo-about">
+                <div class="logo-home">
+                    <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQHmR9yUjANU5A/company-logo_200_200/0/1616221363974?e=1638403200&v=beta&t=Xwj4rVJFVCgJZVjZIwRaoQVgh8c3__a7fcIJxpdKpTg" alt="logo">
+                </div>
+            </div>
+            <div class="socials">
+                <i class="fa fa-instagram" style="font-size:30px;color:black"></i>
+                <i class="fa fa-linkedin" style="font-size:30px;color:black"></i>
+                <i class="fa fa-facebook" style="font-size:30px;color:black"></i>
+                <i class="fa fa-twitter" style="font-size:30px;color:black"></i>
+            </div>
+            <p>The wheels nation is fuelled to set your bike on a smooth journey. Our team believes in efficiency and topmost customer service. Whether it is a bike service, bike repair or bike cleaning we are a one-stop solution for all your bike things.
+                We are here to bring a revolution in the auto servicing industry. Owing to the current scenario of Covid-19 we promise to provide hygienic and safe service to all our customers. If the question is bike service, the answer is always TWN.</p>
+
+        </div>
+    </section>
+
+    <section class="getintouch" id="getintouch">
+        <div class="getintouch-container">
+            <h1>Get in touch</h1>
+            <form>
+                <input type="text" placeholder="Name (required)" required>
+                <input type="text" placeholder="Return address (required)" required>
+                <input type="text" placeholder="Topic (required)" required>
+                <textarea placeholder="Subject (required)" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+
+
+        </div>
+    </section>
+    <footer>
+        <p class="text-footer">
+            Copyright &copy; 2021 The Wheels Nation All rights reserved
+        </p>
+
+    </footer>
+    <script>
+        function on() {
+            document.getElementById("overlay").style.display = "block";
+        }
+
+        function off() {
+            document.getElementById("overlay").style.display = "none";
+        }
+
+        var burger = document.querySelector('.burger')
+        var navbar = document.querySelector('.navbar')
+        var rightNav = document.querySelector('.rightNav')
+        var navList = document.querySelector('.nav-list')
+
+
+        burger.addEventListener('click', () => {
+            rightNav.classList.toggle('v-class-resp');
+            navList.classList.toggle('v-class-resp');
+            navbar.classList.toggle('h-nav-resp');
+
+        })
+    </script>
+    <script src="resp.js"></script>
+</body>
+
+</html>
